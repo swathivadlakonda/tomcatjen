@@ -13,10 +13,9 @@
       dest: /usr/local
   - name: extract tomcat
     unarchive:
-      src: /usr/local/apache-tomcat-8.5.50
+      src: /usr/local/apache-tomcat-8.5.50.tar.gz
       dest: /usr/local
       remote_src: yes
   - name: start tomcat
-    shell: /usr/local/apache-tomcat-8.5.50/bin/startup.sh
-                                                                                                                                                           
+    shell: /usr/local/apache-tomcat-8.5.50/bin/startup.sh                                  
                                                                           
