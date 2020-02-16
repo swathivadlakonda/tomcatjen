@@ -18,5 +18,5 @@
       remote_src: yes
   - name: start tomcat
     shell: /usr/local/apache-tomcat-8.5.50/bin/startup.sh
-~                                                                                                                                                              
-~                                                                          
+                                                                                                                                                           
+                                                                          
